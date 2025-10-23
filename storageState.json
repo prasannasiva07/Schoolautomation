@@ -1,0 +1,45 @@
+{
+  "cookies": [
+    {
+      "name": "ISNAAC",
+      "value": "gD%2FlL39U29A%3D",
+      "domain": "smtnetkampuss.netcampus.in",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "TID",
+      "value": "150P4dttRsw%3D",
+      "domain": "smtnetkampuss.netcampus.in",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SCL",
+      "value": "uBDcJX3%2BchE%3D",
+      "domain": "smtnetkampuss.netcampus.in",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "accyearid",
+      "value": "h4d2TZ5KorY%3D",
+      "domain": "smtnetkampuss.netcampus.in",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}
