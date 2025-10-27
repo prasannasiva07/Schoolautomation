@@ -23,6 +23,7 @@ export class AddNewEmployeePage {
     } 
     //click on employee module and navigate to add new employee page
     async navigateToAddNewEmployee() {
+        await this.page.waitForTimeout(2000);
         await this.employee.click();
         await this.page.waitForTimeout(2000);
         await this.newemployee.click();
@@ -101,11 +102,7 @@ export class AddNewEmployeePage {
   }
 }
 
-
-
-
-    
-    async submitForm() {
+      async submitForm() {
         await this.submit.click();
     }
 
