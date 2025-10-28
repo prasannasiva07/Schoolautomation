@@ -18,12 +18,12 @@ test('Add New Employee Test', async ({ page }) => {
     console.log('Current URL after goto:', page.url());
 
     // Check if login form is present (common selectors used in the app)
-    const loginVisible = await page.locator("//input[@placeholder='Username']").isVisible().catch(() => false);
-    console.log('Is login form visible after navigation?', loginVisible);
+    // const loginVisible = await page.locator("//input[@placeholder='Username']").isVisible().catch(() => false);
+    // console.log('Is login form visible after navigation?', loginVisible);
 
     // Print cookies again to see if anything changed
-    const ctxCookiesAfter = await page.context().cookies();
-    console.log('Context cookies after navigation:', JSON.stringify(ctxCookiesAfter, null, 2));
+    // const ctxCookiesAfter = await page.context().cookies();
+    // console.log('Context cookies after navigation:', JSON.stringify(ctxCookiesAfter, null, 2));
 
     // Take a screenshot for debugging
     await page.screenshot({ path: 'debug-screenshot.png', fullPage: true });
