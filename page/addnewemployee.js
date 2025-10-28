@@ -28,7 +28,7 @@ export class AddNewEmployeePage {
         await this.newemployee.click();
         await this.addnew.click();
     }
-    
+
     async fillEmployeeForm(data) {
   if (data.category) {
     await this.category.waitFor({ state: 'visible', timeout: 5000 });
@@ -111,3 +111,4 @@ export class AddNewEmployeePage {
 
 }
 module.exports = { AddNewEmployeePage };
+

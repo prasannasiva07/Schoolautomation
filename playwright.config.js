@@ -14,7 +14,7 @@ import { defineConfig, devices } from '@playwright/test';
  */
 export default defineConfig({
   testDir: './tests',
-  // globalSetup: require.resolve('./Global/storage.js'),
+  globalSetup: require.resolve('./Global/storage.js'),
   /* Run tests in files in parallel */
   fullyParallel: true,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
@@ -25,17 +25,16 @@ export default defineConfig({
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: 'html',
-  
 
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
-
-     video: {
+    storageState: './Global/storageState.json',
+    video: {
       mode: 'on',  // record video for all tests
       size: { width: 1280, height: 720 },
     },
-     trace: 'on',
-     outputDir: 'test-results/',
+    trace: 'on',
+    outputDir: 'test-results/',
 
     // storageState: 'storageState.json',
     // headless: false,

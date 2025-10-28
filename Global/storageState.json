@@ -1,0 +1,95 @@
+{
+  "cookies": [
+    {
+      "name": "ISNAAC",
+      "value": "gD%2FlL39U29A%3D",
+      "domain": "smtnetkampuss.netcampus.in",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "TID",
+      "value": "150P4dttRsw%3D",
+      "domain": "smtnetkampuss.netcampus.in",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SCL",
+      "value": "uBDcJX3%2BchE%3D",
+      "domain": "smtnetkampuss.netcampus.in",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "accyearid",
+      "value": "h4d2TZ5KorY%3D",
+      "domain": "smtnetkampuss.netcampus.in",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "UID",
+      "value": "uBDcJX3%2BchE%3D",
+      "domain": "smtnetkampuss.netcampus.in",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "URID",
+      "value": "uBDcJX3%2BchE%3D",
+      "domain": "smtnetkampuss.netcampus.in",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "USER",
+      "value": "5Bg2FeBCVRU%3D",
+      "domain": "smtnetkampuss.netcampus.in",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "AYID",
+      "value": "uBDcJX3%2BchE%3D",
+      "domain": "smtnetkampuss.netcampus.in",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": ".AspNetCore.Session",
+      "value": "CfDJ8DB%2BjvKc2FdNvJmjK3bi%2Fz1UiM9PnloTtuilBr8uwqSxSN1K07XWj7MYrHAhtbYMH4ncmFEtp%2BY8U8lKcHgzj4bRkuJ%2B9%2FoHxeVOpliuJ%2BQrPLJC2K6yjOsZr4ExJI24XcojuM5qTdnMP6diInYQspRJT1MxX9KD9RY7W1SPqDcc",
+      "domain": "smtnetkampuss.netcampus.in",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}
