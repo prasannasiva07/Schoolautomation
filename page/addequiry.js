@@ -44,7 +44,7 @@ class AddNewEmployeePage {
     }
 
     async clickAddNew() {
-       
+      await this.page.waitForTimeout(2000);  
       await this.addnew.click();
       await this.page.waitForTimeout(2000);
         
@@ -75,12 +75,10 @@ class AddNewEmployeePage {
     await this.employeecode.fill(data.employeecode.toString());
   }
 
-  if (data.dob) {
+   if (data.dob){
     await this.dob.waitFor({ state: 'visible', timeout: 5000 });
-    const dobValue = typeof data.dob === 'number' ? this._convertExcelDateToString(data.dob) : data.dob;
-    await this.dob.fill(dobValue);
-    await this.dob.press('Enter');
-  }
+    await this.dob.fill(data.dob);
+   }
 
   if (data.gender) {
     await this.gender.waitFor({ state: 'visible', timeout: 5000 });
@@ -102,12 +100,11 @@ class AddNewEmployeePage {
     await this.designation.selectOption(data.designation);
   }
 
-  if (data.doj) {
+  
+      if (data.doj) {
     await this.doj.waitFor({ state: 'visible', timeout: 5000 });
-    const dojValue = typeof data.doj === 'number' ? this._convertExcelDateToString(data.doj) : data.doj;
-    await this.doj.fill(dojValue);
-    await this.doj.press('Enter');
-  }
+    await this.doj.fill(data.doj);
+    }
 
   if (data.state) {
     await this.state.waitFor({ state: 'visible', timeout: 5000 });
@@ -124,12 +121,13 @@ class AddNewEmployeePage {
     await this.pincode.fill(data.pincode.toString());
   }
 }
-    async submitForm() {
-        await this.submitbutton.click();
+ async submitForm() {
+      await this.submitbutton.click();
+
+ }
+
     }
-   
-    
-}
+
 
 module.exports = { AddNewEmployeePage };
 
